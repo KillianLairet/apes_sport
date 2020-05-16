@@ -1,0 +1,64 @@
+/* style_about.css */
+
+@font-face {
+    font-family: 'cantarellbold';
+    src: url('font/Cantarell-Bold-webfont.eot');
+    src: url('font/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Cantarell-Bold-webfont.woff2') format('woff2'),
+         url('font/Cantarell-Bold-webfont.woff') format('woff'),
+         url('font/Cantarell-Bold-webfont.ttf') format('truetype'),
+         url('font/Cantarell-Bold-webfont.svg#cantarellbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color: #FFF;
+	font-family: 'cantarellbold', sans-serif;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+#bloc-page
+{
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+nav
+{
+	width: 100%;
+	height: 60px;
+	background-color: #424558;
+}
+nav ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+nav li
+{
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+}
+nav a:hover
+{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+nav li:hover a
+{
+	padding: 15px 30px 20px 30px;
+}

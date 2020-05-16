@@ -1,0 +1,531 @@
+/* style_home.css */
+
+@font-face {
+    font-family: 'cantarellbold';
+    src: url('font/Cantarell-Bold-webfont.eot');
+    src: url('font/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Cantarell-Bold-webfont.woff2') format('woff2'),
+         url('font/Cantarell-Bold-webfont.woff') format('woff'),
+         url('font/Cantarell-Bold-webfont.ttf') format('truetype'),
+         url('font/Cantarell-Bold-webfont.svg#cantarellbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'virgo_01regular';
+    src: url('font/virgo-webfont.eot');
+    src: url('font/virgo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/virgo-webfont.woff2') format('woff2'),
+         url('font/virgo-webfont.woff') format('woff'),
+         url('font/virgo-webfont.ttf') format('truetype'),
+         url('font/virgo-webfont.svg#virgo_01regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color: #FFF;
+	font-family: 'cantarellbold', sans-serif;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+#bloc-page
+{
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+nav
+{
+	width: 100%;
+	height: 60px;
+	background-color: #424558;
+}
+nav ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+nav li
+{
+	list-style-type: none;
+	float: left;
+	position: relative;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+}
+nav a:hover
+{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+nav li:hover a
+{
+	padding: 15px 30px 20px 30px;
+}
+
+#banner
+{
+	height: 450px;
+	background: url('img/banner.png') no-repeat;
+	position: relative;
+	padding-bottom: 0px;
+}
+#banner a
+{
+	text-decoration: none;
+	font-size: 2em;
+	color: #FFF;
+	text-transform: uppercase;
+	position: absolute;
+	right: 475px;
+	bottom: 30px;
+	border: 2.5px solid #FFF;
+	border-radius: 30px;
+	background-color: #424558;
+	padding: 10px;
+}
+#banner a:hover
+{
+	background-color: rgba(241, 211, 79, 0.50);
+}
+
+#scroll
+{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'virgo_01regular', 'cantarellbold', 'Trebuchet MS';
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+#scroll a
+{
+	text-decoration: none;
+	color: #424558;
+}
+#scroll a:hover
+{
+	color: #f1dc4f;
+}
+
+#about-block
+{
+	margin: 10px;
+	background-color: #f9f9f9;
+	border-radius: 20px;
+}
+#about-title
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-decoration: underline;
+	color: #424558;
+	padding-bottom: 25px;
+	padding-top: 100px;
+	font-family: 'virgo_01regular';
+}
+
+#about
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.killianlairet
+{
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	padding-bottom: 20px;
+	width: 40%;
+	border: 1px solid #424558;
+	border-radius: 5px;
+	box-shadow: 9px 9px 9px #424558;
+}
+.killianlairet-title
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	justify-content: space-between;
+}
+.killianlairet-title h1
+{
+	font-size: 1.5em;
+	margin-top: 75px;
+	margin-left: 75px;
+	color: #424558;
+}
+.killianlairet-title figure
+{
+	margin-top: 0px;
+	margin-right: 0px;
+}
+.killianlairet p
+{
+	text-align: justify;
+	margin: 0px 25px 20px 25px;
+	padding: 0px;
+	color: #62688d;
+	font-size: 1em;
+}
+
+.apessport
+{
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	padding-bottom: 20px;
+	width: 40%;
+	border: 1px solid #424558;
+	border-radius: 5px;
+	box-shadow: 9px 9px 9px #424558;
+}
+.apessport-title
+{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	justify-content: space-between;
+}
+.apessport-title h1
+{
+	font-size: 1.5em;
+	margin-top: 75px;
+	margin-left: 75px;
+	color: #424558;
+}
+.apessport-title figure
+{
+	margin-top: 0px;
+	margin-right: 0px;
+}
+.apessport p
+{
+	text-align: justify;
+	margin: 0px 25px 5px 25px;
+	padding: 0px;
+	color: #62688d;
+	font-size: 1em;
+}
+#article-block
+{
+	margin: 10px;
+	background-color: #f9f9f9;
+	border-radius: 20px;
+}
+#article-title
+{
+	
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-decoration: underline;
+	color: #424558;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	font-family: 'virgo_01regular';
+}
+
+#article
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+	margin-bottom: 75px;
+}
+.article-mon-equipe
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	background-color: #fff9ed;
+	border: 1px solid #e9e4da;
+	border-radius: 10px;
+	box-shadow: 9px 9px 9px #424558;
+	position: relative;
+}
+.article-mon-equipe h1
+{
+	text-align: center;
+	font-size: 1.5em;
+	color: #424558;
+}
+.article-mon-equipe p
+{
+	text-align: justify;
+	font-size: 0.8em;
+	color: #62688d;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+.article-mon-equipe a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.article-mon-equipe a:hover
+{
+	text-decoration: underline;
+}
+.article-button-1
+{
+	text-align: right;
+	font-size: 1em;
+	color: #424558;
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+}
+.article-le-bon-mindset
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	background-color: #fff9ed;
+	border: 1px solid #e9e4da;
+	border-radius: 10px;
+	box-shadow: 9px 9px 9px #424558;
+	position: relative;
+}
+.article-le-bon-mindset h1
+{
+	text-align: center;
+	font-size: 1.5em;
+	color: #424558;
+}
+.article-le-bon-mindset p
+{
+	text-align: justify;
+	font-size: 0.8em;
+	color: #62688d;
+	padding: 30px;
+}
+.article-le-bon-mindset a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.article-le-bon-mindset a:hover
+{
+	text-decoration: underline;
+}
+.article-button-2
+{
+	text-align: right;
+	font-size: 1em;
+	color: #424558;
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+	padding-top: 10px;
+}
+.article-le-hockey-un-sport-de-valeur
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	background-color: #fff9ed;
+	border: 1px solid #e9e4da;
+	border-radius: 10px;
+	box-shadow: 9px 9px 9px #424558;
+	position: relative;
+}
+.article-le-hockey-un-sport-de-valeur h1
+{
+	text-align: center;
+	font-size: 1.5em;
+	color: #424558;
+}
+.article-le-hockey-un-sport-de-valeur p
+{
+	text-align: justify;
+	font-size: 0.8em;
+	color: #62688d;
+	padding: 30px;
+}
+.article-le-hockey-un-sport-de-valeur a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.article-le-hockey-un-sport-de-valeur a:hover
+{
+	text-decoration: underline;
+}
+.article-button-3
+{
+	text-align: right;
+	font-size: 1em;
+	color: #424558;
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+}
+
+#contact-block
+{
+	display: block;
+	background-color: #f2f2f2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: auto;
+	width: 95%;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+#contact-title
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-decoration: underline;
+	color: #424558;
+	padding-bottom: 10px;
+	font-family: 'virgo_01regular';
+}
+
+#contact-transition
+{
+	text-align: center;
+	font-size: 2em;
+	color: #424558;
+	padding-bottom: 25px;
+	padding-top: 0px;
+}
+#contact
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0px;
+	margin-bottom: 75px;
+}
+.contact-facebook
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.contact-facebook p
+{
+	text-align: center;
+	font-size: 1em;
+}
+.contact-facebook figure
+{
+	text-align: center;
+}
+.contact-facebook a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.contact-facebook a:hover
+{
+	text-decoration: underline;
+}
+.contact-instagram
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.contact-instagram p
+{
+	text-align: center;
+	font-size: 1em;
+}
+.contact-instagram figure
+{
+	text-align: center;
+}
+.contact-instagram a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.contact-instagram a:hover
+{
+	text-decoration: underline;
+}
+.contact-twitter
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.contact-twitter p
+{
+	text-align: center;
+	font-size: 1em;
+}
+.contact-twitter figure
+{
+	text-align: center;
+}
+.contact-twitter a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.contact-twitter a:hover
+{
+	text-decoration: underline;
+}
+.contact-mail
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.contact-mail p
+{
+	text-align: center;
+	font-size: 1em;
+}
+.contact-mail figure
+{
+	text-align: center;
+}
+.contact-mail a
+{
+	text-decoration: none;
+	color: #424558;
+}
+.contact-mail a:hover
+{
+	text-decoration: underline;
+}
+
+footer
+{
+	text-align: left;
+	font-size: 1em;
+	margin-top: 50px;
+	padding: 5px 25px 5px 50px;
+	background-color: #424558;
+	color: #FFF;
+}
+footer a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+footer a:hover
+{
+	text-decoration: underline;
+	color: #f1dc4f;
+}
